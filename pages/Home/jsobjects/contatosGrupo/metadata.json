@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "contatosGrupo",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home_contatosGrupo",
+  "deleted": false,
+  "gitSyncId": "6535297dfdceef64b0208f86_656d12a506471f601409af8b"
+}

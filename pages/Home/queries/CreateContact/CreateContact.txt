@@ -1,0 +1,2 @@
+INSERT INTO public.contacts(name, surname, phone, email, id_user, id_contact_user) VALUES
+({{ contactName.text }},{{ surnameContact.text }}, {{ phoneContact.text }}, {{ emailContact.text }}, {{ appsmith.store.user[0].user_id}}, {{ this.params.id_contact_user }});

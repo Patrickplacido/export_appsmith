@@ -1,0 +1,4 @@
+SELECT g.*
+FROM "groups" g
+INNER JOIN "group_members" gm ON g.group_id = gm.group_id
+WHERE gm.user_id = {{ appsmith.store.user.id}};

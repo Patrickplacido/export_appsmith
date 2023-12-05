@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "addContact",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home_addContact",
+  "deleted": false,
+  "gitSyncId": "6535297dfdceef64b0208f86_6553ec86bdb40e05a2ee12a2"
+}

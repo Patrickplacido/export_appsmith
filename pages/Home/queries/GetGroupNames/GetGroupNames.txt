@@ -1,0 +1,1 @@
+select * from public.groups order by group_id asc;

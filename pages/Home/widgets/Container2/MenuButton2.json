@@ -1,0 +1,73 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 7,
+    "widgetName": "MenuButton2",
+    "dynamicPropertyPathList": [{"key": "placement"}],
+    "displayName": "Menu button",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 16,
+    "animateLoading": true,
+    "parentColumnSpace": 11.421875,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem9dld1cqzg1.onClick"}
+    ],
+    "leftColumn": 58,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"},
+        {"key": "menuItems.menuItem1.iconColor"},
+        {"key": "menuItems.menuItem9dld1cqzg1.iconColor"}
+    ],
+    "isDisabled": false,
+    "key": "k9kxwnexpy",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "iconName": "more",
+    "menuVariant": "TERTIARY",
+    "widgetId": "wtptgwwg2m",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{navigateTo('Edição de Usuário', {}, 'SAME_WINDOW');}}",
+            "iconName": "user",
+            "widgetId": "",
+            "iconColor": "{{appsmith.theme.colors.primaryColor}}",
+            "index": 0,
+            "label": "Usuário",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem9dld1cqzg1": {
+            "onClick": "{{showModal('ModalCreateGroup');}}",
+            "iconName": "inherited-group",
+            "widgetId": "vfqg3m1q20",
+            "iconColor": "{{appsmith.theme.colors.primaryColor}}",
+            "index": 1,
+            "id": "menuItem9dld1cqzg1",
+            "label": "Novo Grupo",
+            "isDisabled": false,
+            "isVisible": true
+        }
+    },
+    "isVisible": true,
+    "label": "",
+    "version": 1,
+    "parentId": "dblkv0g90c",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 3,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "iconAlign": "right",
+    "placement": "END"
+}

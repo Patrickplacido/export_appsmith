@@ -1,0 +1,2 @@
+SELECT public.users.first_name || ' ' || public.users.last_name as fullname FROM public.group_members inner join public.users on public.group_members.user_id = public.users.user_id
+WHERE group_id = 20;

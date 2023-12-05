@@ -1,0 +1,7 @@
+SELECT 
+	u.user_id as id,
+	u.first_name,
+	u.last_name,
+	u.email,
+	u.data_of_birth as date_birth
+FROM users u WHERE u.email = '{{ login_form.data.login_email }}' AND u.user_secret = '{{ login_form.data.login_password }}';

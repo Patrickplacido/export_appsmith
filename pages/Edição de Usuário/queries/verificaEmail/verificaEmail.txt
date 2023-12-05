@@ -1,0 +1,4 @@
+SELECT 
+	u.email 
+FROM public.users u
+WHERE u.email = {{Email.text}}

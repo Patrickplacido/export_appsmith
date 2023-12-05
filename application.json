@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Cadastro ",
+      "isDefault": false
+    },
+    {
+      "id": "Edição de Usuário",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": false,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "color": "#E4D8CC",
+  "icon": "chinese-remnibi",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,2 @@
+SELECT * FROM public.contacts 
+WHERE id_user = {{ appsmith.store.user[0].user_id }}

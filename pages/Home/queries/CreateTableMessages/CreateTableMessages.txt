@@ -1,0 +1,9 @@
+CREATE TABLE messages (
+    message_id SERIAL PRIMARY KEY,
+    conversation_id INT,
+    sender_id INT,
+    message_text TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (conversation_id) REFERENCES conversations(conversation_id),
+    FOREIGN KEY (sender_id) REFERENCES users(user_id)
+);

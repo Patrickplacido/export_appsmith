@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "edicaoUsuario1",
+    "pageId": "Edição de Usuário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Edição de Usuário_edicaoUsuario1",
+  "deleted": false,
+  "gitSyncId": "6535297dfdceef64b0208f86_65541bbbc0cbf85699484e73"
+}
